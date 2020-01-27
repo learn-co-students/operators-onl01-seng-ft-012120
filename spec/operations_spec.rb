@@ -5,7 +5,7 @@ describe "Operations" do
   describe "#unsafe?" do
     it 'returns true if speed is greater than 60' do
       answer = unsafe?(79)
-      expect(answer).to eq(true)
+      expect(if).to eq(true)
     end
 
     it 'returns true if speed is less than 40' do
